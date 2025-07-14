@@ -52,9 +52,7 @@ Pod install
 - To set that, do the following: 
    - Locate the "Play" button in the top left corner of XCode (don't click it), but look to the right of that 
    - You will see your project name next to an app icon, click that and then click "Edit Scheme"
-
-![Image of the step above](https://lh3.googleusercontent.com/u/0/drive-viewer/AITFw-wxbYY0_cUxvYkeyO7zQ_GaY_C99n0CeYesQCPTvUHxAzGegyWslPJUVGlk16i-dZx4lhy7EGKA3Od1pRTV_ZDUWpE9Sg=w3456-h1814)
-   - Edit the existing environment variable labelled "KLAVIYO_PUB_KEY" and add the value of your public API code from Klaviyo.  
+   - Click Arguments and edit the existing environment variable labelled "KLAVIYO_PUB_KEY." Set it to the value of your public API code from Klaviyo.  
    - If you need to locate your public key from Klaviyo, login and go to Settings -> API Keys -> Your public key will be on screen 
 
 ### XCode - Confirm Package Dependencies
