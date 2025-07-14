@@ -43,7 +43,7 @@ sudo gem install cocoapods
 - Run the below to install the Pod modules needed 
 
 ```
-Pod Install
+Pod install
 ```
 ### XCode - Environment Key Setup
 - Open XCode and on the main prompt, select "Open a project or file"
@@ -52,18 +52,13 @@ Pod Install
 - To set that, do the following: 
    - Locate the "Play" button in the top left corner of XCode (don't click it), but look to the right of that 
    - You will see your project name next to an app icon, click that and then click "Edit Scheme"
-
-![Image of the step above](https://lh3.googleusercontent.com/u/0/drive-viewer/AITFw-wxbYY0_cUxvYkeyO7zQ_GaY_C99n0CeYesQCPTvUHxAzGegyWslPJUVGlk16i-dZx4lhy7EGKA3Od1pRTV_ZDUWpE9Sg=w3456-h1814)
-   - Edit the existing environment variable labelled "KLAVIYO_PUB_KEY" and add the value of your public API code from Klaviyo.  
+   - Click Arguments and edit the existing environment variable labelled "KLAVIYO_PUB_KEY." Set it to the value of your public API code from Klaviyo.  
    - If you need to locate your public key from Klaviyo, login and go to Settings -> API Keys -> Your public key will be on screen 
 
 ### XCode - Confirm Package Dependencies
-- Package dependencies should show in the left sidebar as follows (see image)
-
-![Image of the step above](https://lh3.googleusercontent.com/u/0/drive-viewer/AITFw-y9Evd0iCINVnpHhmYyBU8wz6f_WVWcO6_FAQpyK_y0mpkoURQOemJClY5CJ1dU51-_-Cw7dR-m8JD3fe-h3yIbzEvR=w3456-h1814)
-
-- If they do not, you will need to add via _File -> Add Packages_ in XCode
-- You may also see the Packages but have a small red X next to them.  In this case, remove the package, and re-add it by pasting the url to our git repo (https://github.com/klaviyo/klaviyo-swift-sdk) in the search bar.  You will then be asked to authenticate to github to pull it down into your Xcode project.
+Package dependencies should show in the left sidebar.
+- If they do not, you will need to add via _File -> Add Package Dependencies_ in XCode
+- You may also see the Packages but have a small red X next to them.  In this case, remove the package, and re-add it by pasting the url to our git repo (https://github.com/klaviyo/klaviyo-swift-sdk) in the search bar.  You will then be asked to authenticate to GitHub to pull it down into your Xcode project.
 
 
 ## Running the app 
