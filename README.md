@@ -56,12 +56,9 @@ Pod install
    - If you need to locate your public key from Klaviyo, login and go to Settings -> API Keys -> Your public key will be on screen 
 
 ### XCode - Confirm Package Dependencies
-- Package dependencies should show in the left sidebar as follows (see image)
-
-![Image of the step above](https://lh3.googleusercontent.com/u/0/drive-viewer/AITFw-y9Evd0iCINVnpHhmYyBU8wz6f_WVWcO6_FAQpyK_y0mpkoURQOemJClY5CJ1dU51-_-Cw7dR-m8JD3fe-h3yIbzEvR=w3456-h1814)
-
-- If they do not, you will need to add via _File -> Add Packages_ in XCode
-- You may also see the Packages but have a small red X next to them.  In this case, remove the package, and re-add it by pasting the url to our git repo (https://github.com/klaviyo/klaviyo-swift-sdk) in the search bar.  You will then be asked to authenticate to github to pull it down into your Xcode project.
+Package dependencies should show in the left sidebar.
+- If they do not, you will need to add via _File -> Add Package Dependencies_ in XCode
+- You may also see the Packages but have a small red X next to them.  In this case, remove the package, and re-add it by pasting the url to our git repo (https://github.com/klaviyo/klaviyo-swift-sdk) in the search bar.  You will then be asked to authenticate to GitHub to pull it down into your Xcode project.
 
 
 ## Running the app 
