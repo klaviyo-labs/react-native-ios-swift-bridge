@@ -43,7 +43,7 @@ sudo gem install cocoapods
 - Run the below to install the Pod modules needed 
 
 ```
-Pod Install
+Pod install
 ```
 ### XCode - Environment Key Setup
 - Open XCode and on the main prompt, select "Open a project or file"
